@@ -4,14 +4,14 @@
     "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj": {}
   },
   "projects": {
-    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj": {
+    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
-        "projectName": "ShopOnline.Web",
-        "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+        "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "projectName": "ShopOnline.Models",
+        "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
         "packagesPath": "C:\\Users\\dorci\\.nuget\\packages\\",
-        "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\obj\\",
+        "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dorci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,65 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+        "projectName": "ShopOnline.Web",
+        "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+        "packagesPath": "C:\\Users\\dorci\\.nuget\\packages\\",
+        "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dorci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+                "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -48,6 +107,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
             }
           },
           "imports": [
