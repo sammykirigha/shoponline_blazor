@@ -4,11 +4,11 @@
 
 @if(Product == null && ErrorMessage == null)
 {
-    <h3 class="">Loading Product Details</h3>
+    <DisplaySpinner></DisplaySpinner>
 }
 else if (ErrorMessage != null)
 {
-    <h3 class="text-danger">@ErrorMessage</h3>
+   <DisplayError ErrorMessage="@ErrorMessage"></DisplayError>
 }
 else 
 {
@@ -25,6 +25,7 @@ else
                     $@Product.Price.ToString()&nbsp;(@Product.Qty items items in stock)
                 </b>
             </p>
+            <button class="btn btn-success">Add to Cart</button>
         </div>
     </div>
 }

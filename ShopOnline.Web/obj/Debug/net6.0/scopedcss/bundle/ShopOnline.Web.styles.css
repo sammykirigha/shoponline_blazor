@@ -21,6 +21,32 @@ a:hover img[b-r631xo10ml] {
 img[b-r631xo10ml] {
     transition: 0.5s ease-in-out;
 }
+/* /Pages/DisplaySpinner.razor.rz.scp.css */
+.center[b-p9f7rduw4v]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader[b-p9f7rduw4v] {
+    margin: auto;
+    border: 20px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 20px solid #A9A9A9;
+    width: 200px;
+    height: 200px;
+    animation: spinner-b-p9f7rduw4v 4s linear infinite;
+}
+
+@keyframes spinner-b-p9f7rduw4v {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-odzh4mtldn] {
     position: relative;

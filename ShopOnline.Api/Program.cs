@@ -22,6 +22,7 @@ builder.Services.AddDbContext<ShopOnlineDbContext>(options =>
 );
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
 
 builder.Services.AddCors(options =>
 {

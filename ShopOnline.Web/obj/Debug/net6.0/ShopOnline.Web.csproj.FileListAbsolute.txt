@@ -834,3 +834,4 @@ D:\personal_projects\ShopOnline.Web\ShopOnline.Web\obj\Debug\net6.0\build-gz\+OL
 D:\personal_projects\ShopOnline.Web\ShopOnline.Web\obj\Debug\net6.0\build-gz\hVXl3EdA.gz
 D:\personal_projects\ShopOnline.Web\ShopOnline.Web\obj\Debug\net6.0\build-gz\ukwbYfdK.gz
 D:\personal_projects\ShopOnline.Web\ShopOnline.Web\obj\Debug\net6.0\scopedcss\Pages\DisplayProducts.razor.rz.scp.css
+D:\personal_projects\ShopOnline.Web\ShopOnline.Web\obj\Debug\net6.0\scopedcss\Pages\DisplaySpinner.razor.rz.scp.css
