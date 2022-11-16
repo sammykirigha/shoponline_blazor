@@ -5159,11 +5159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Api\\ShopOnline.Api.csproj",
+      "projectUniqueName": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Api\\ShopOnline.Api.csproj",
       "projectName": "ShopOnline.Api",
-      "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Api\\ShopOnline.Api.csproj",
+      "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Api\\ShopOnline.Api.csproj",
       "packagesPath": "C:\\Users\\dorci\\.nuget\\packages\\",
-      "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Api\\obj\\",
+      "outputPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dorci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5180,8 +5180,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-              "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj"
+            "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+              "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj"
             }
           }
         }

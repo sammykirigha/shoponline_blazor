@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nCmR3fpl08JyfW7Z1LFC/kkOFFMjFsyDbDQC7htPbuNpdJ3Tvvsz+x6pIal+Wukg0ORVdupnt2NO7f7eh3xeVQ==",
+  "dgSpecHash": "VoDRb9cDfvvDcY6YI4q6hjx0NzRMzkquf/UrvFAMSYfe3V7GgZcN5zNXUmuRMjB6AG5hfGKbiq3C7R4IJrU3cg==",
   "success": true,
-  "projectFilePath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+  "projectFilePath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dorci\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\dorci\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\dorci\\.nuget\\packages\\microsoft.jsinterop\\6.0.10\\microsoft.jsinterop.6.0.10.nupkg.sha512",
     "C:\\Users\\dorci\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.10\\microsoft.jsinterop.webassembly.6.0.10.nupkg.sha512",
     "C:\\Users\\dorci\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
+    "C:\\Users\\dorci\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\dorci\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\dorci\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\dorci\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj": {}
+    "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj": {}
   },
   "projects": {
-    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+    "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "projectUniqueName": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
         "projectName": "ShopOnline.Models",
-        "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
         "packagesPath": "C:\\Users\\dorci\\.nuget\\packages\\",
-        "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\obj\\",
+        "outputPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dorci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj": {
+    "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+        "projectUniqueName": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
         "projectName": "ShopOnline.Web",
-        "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+        "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
         "packagesPath": "C:\\Users\\dorci\\.nuget\\packages\\",
-        "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\obj\\",
+        "outputPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dorci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-                "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj"
+              "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+                "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj"
               }
             }
           }
@@ -115,6 +115,10 @@
             "Microsoft.Net.Http": {
               "target": "Package",
               "version": "[2.2.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

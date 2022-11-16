@@ -467,6 +467,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
@@ -1017,6 +1030,19 @@
             "related": ".XML"
           },
           "lib/net45/System.Net.Http.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -1962,6 +1988,33 @@
         "microsoft.net.http.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.IO.Pipelines/6.0.3": {
       "sha512": "ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
       "type": "package",
@@ -2105,6 +2158,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10",
       "Microsoft.Extensions.Http >= 7.0.0",
       "Microsoft.Net.Http >= 2.2.29",
+      "Newtonsoft.Json >= 13.0.1",
       "ShopOnline.Models >= 1.0.0"
     ]
   },
@@ -2114,11 +2168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+      "projectUniqueName": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
       "projectName": "ShopOnline.Web",
-      "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
+      "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\ShopOnline.Web.csproj",
       "packagesPath": "C:\\Users\\dorci\\.nuget\\packages\\",
-      "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Web\\obj\\",
+      "outputPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dorci\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2135,8 +2189,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-              "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj"
+            "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+              "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj"
             }
           }
         }
@@ -2167,6 +2221,10 @@
           "Microsoft.Net.Http": {
             "target": "Package",
             "version": "[2.2.29, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           }
         },
         "imports": [

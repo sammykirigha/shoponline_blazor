@@ -10,3 +10,15 @@ D:\personal_projects\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnlin
 D:\personal_projects\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\refint\ShopOnline.Models.dll
 D:\personal_projects\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.pdb
 D:\personal_projects\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ref\ShopOnline.Models.dll
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.deps.json
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.dll
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.pdb
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.csproj.AssemblyReference.cache
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.AssemblyInfoInputs.cache
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.AssemblyInfo.cs
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.csproj.CoreCompileInputs.cache
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.dll
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\refint\ShopOnline.Models.dll
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.pdb
+D:\personal_projects\.Net\ShopOnline.Web\ShopOnline.Models\obj\Debug\net6.0\ref\ShopOnline.Models.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {}
+    "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {}
   },
   "projects": {
-    "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+    "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "projectUniqueName": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
         "projectName": "ShopOnline.Models",
-        "projectPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "projectPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\ShopOnline.Models.csproj",
         "packagesPath": "C:\\Users\\dorci\\.nuget\\packages\\",
-        "outputPath": "D:\\personal_projects\\ShopOnline.Web\\ShopOnline.Models\\obj\\",
+        "outputPath": "D:\\personal_projects\\.Net\\ShopOnline.Web\\ShopOnline.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dorci\\AppData\\Roaming\\NuGet\\NuGet.Config",
