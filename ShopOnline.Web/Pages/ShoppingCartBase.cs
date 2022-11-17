@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using ShopOnline.Models.Dtos;
+using ShopOnline.Web.Services;
 using ShopOnline.Web.Services.Contracts;
 
 namespace ShopOnline.Web.Pages
@@ -11,7 +12,7 @@ namespace ShopOnline.Web.Pages
         public IJSRuntime JS { get; set; }
 
         [Inject]
-        public IShoppingCartService ShoppingCartService { get; set; }
+        public IShoppingCartService shoppingCartService { get; set; }
 
         public List<CartItemDto> ShoppingCartItems { get; set; }
 
@@ -25,7 +26,8 @@ namespace ShopOnline.Web.Pages
         {
             try
             {
-                ShoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
+                ShoppingCartItems = await shoppingCartService.GetItems(HardCoded.UserId);
+                CartChanged();
             }
             catch (Exception ex)
             {
@@ -36,9 +38,9 @@ namespace ShopOnline.Web.Pages
 
         protected async Task DeleteCartItem_click(int id)
         {
-            var cartItemDto = await ShoppingCartService.DeleteItem(id);
+            var cartItemDto = await shoppingCartService.DeleteItem(id);
             RemoveCartItem(id);
-            CalculateCartSummaryTotals();
+            CartChanged();
         }
 
         protected async Task UpdateQtyCartItem_Click(int id, int qty)
@@ -53,11 +55,11 @@ namespace ShopOnline.Web.Pages
                         Qty = qty
                     };
 
-                    var returnedUpdatedItemDto = await this.ShoppingCartService.UpdateQty(updateItemDto);
+                    var returnedUpdatedItemDto = await this.shoppingCartService.UpdateQty(updateItemDto);
 
                     UpdateItemTotalPrice(returnedUpdatedItemDto);
 
-                    CalculateCartSummaryTotals();
+                    CartChanged();
 
                     await JS.InvokeVoidAsync("MakeUpdateQtyButtonVisible", id, false);
                 }
@@ -117,5 +119,14 @@ namespace ShopOnline.Web.Pages
             var cartItemDto = GetCartItem(id);
             ShoppingCartItems.Remove(cartItemDto);
         }
+
+        private void CartChanged()
+        {
+            CalculateCartSummaryTotals();
+
+            shoppingCartService.RaiseEventOnShoppingCartChanged(TotalQuantity);
     }
+    }
+
+    
 }
